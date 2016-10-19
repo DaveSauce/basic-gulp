@@ -1,1 +1,1 @@
-console.log( 'this is main.js, for real' );
+console.log( 'this is main.js' );

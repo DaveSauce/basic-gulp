@@ -6,7 +6,7 @@ import browserSync from 'browser-sync';
 import less from 'gulp-less';
 import autoprefixer from 'gulp-autoprefixer';
 import cssnano from 'gulp-cssnano';
-import base64 from 'gulp-base64';
+import base64 from 'gulp-base64-inline';
 
 import concat from 'gulp-concat';
 import uglify from 'gulp-uglify';

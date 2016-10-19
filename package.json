@@ -1,22 +1,22 @@
 {
-  "name": "thoughtly2",
+  "name": "app-name-here",
   "version": "1.0.0",
-  "description": "Thoughtly's homepage, second version",
+  "description": "Basic Gulp setup",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaveSauce/thoughtly2.git"
+    "url": "git+https://github.com/DaveSauce/basic-gulp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DaveSauce/thoughtly2/issues"
+    "url": "https://github.com/DaveSauce/basic-gulp/issues"
   },
-  "homepage": "https://github.com/DaveSauce/thoughtly2#readme",
+  "homepage": "https://github.com/DaveSauce/basic-gulp#readme",
   "devDependencies": {
     "babel-core": "^6.17.0",
     "babel-preset-es2015": "^6.16.0",
