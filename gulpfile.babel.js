@@ -21,7 +21,7 @@ gulp.task( 'less', function() {
       browsers: ['last 2 versions'],
       cascade: false
     }))
-    .pipe( gulpIf( '*.css', cssnano()))
+    // .pipe( gulpIf( '*.css', cssnano())) // Put back in for Production
     .pipe( gulp.dest( 'build' ) )
     .pipe( browserSync.reload({
       stream: true
@@ -32,9 +32,9 @@ gulp.task( 'less', function() {
 // This only works if all JS is in the same directory. Use gulp-useref if multiple dirs are needed
 // Files are specified by name to determine order.
 gulp.task( 'scripts', function() {
-  return gulp.src( ['app/js/main.js', 'app/js/home.js'] )
+  return gulp.src( [ 'app/js/modernizr-custom.js', 'app/js/main.js', 'app/js/home.js'] )
     .pipe( concat( 'scripts.js' ))
-    .pipe( gulpIf( '*.js', uglify()))
+    // .pipe( gulpIf( '*.js', uglify()))  // Put back in for Production
     .pipe( gulp.dest( 'build' ))
     .pipe( browserSync.reload({
       stream: true
